@@ -1,0 +1,18 @@
+# import Placement from "./../placement/placement.graphql"
+
+type Item {
+    ItemID: ID!
+    Code: String
+    Description: String
+    Placement: Placement
+}
+
+type Query {
+    items: [Item!]!
+    item(ItemID: ID, Code: String): Item
+}
+
+type Mutation {
+    createItem(placementID: ID): Item!
+    deleteItem(itemID: ID!): Item!
+}

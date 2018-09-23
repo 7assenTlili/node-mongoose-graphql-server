@@ -1,0 +1,16 @@
+type Placement {
+    id: ID!
+    clientBillRate: Float
+    payRate: Float
+    reportedMargin: Float
+}
+
+type Query {
+    placements: [Placement!]!
+    placement(id: ID!): Placement
+}
+
+type Mutation {
+    createPlacement(placementID: ID!): Placement!
+    deletePlacement(placementID: ID!): Placement!
+}

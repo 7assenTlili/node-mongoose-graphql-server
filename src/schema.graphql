@@ -1,0 +1,2 @@
+# import Query.*, Mutation.* from "./placement/placement.graphql"
+# import Query.*, Mutation.* from "./item/item.graphql"
