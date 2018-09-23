@@ -11,7 +11,7 @@
 
 
 | File name 　　　　　　　　　　　　　　| Description 　　　　　　　　<br><br>|
-| :--  | :--         |
+| :--  | :--                |
 | `└── src ` (_directory_) | _Contains the source files for your GraphQL server_ |
 | `　　├── index.js` | The entry point for your GraphQL server |
 | `　　├── schema.graphql` | The **application main schema that imports models schema definitions** defining the API exposed to client applications  |
