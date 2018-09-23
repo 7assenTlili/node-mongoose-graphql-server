@@ -22,12 +22,12 @@
 | `　　　　└── itemQuery.js` | The implementation of **Query resolvers** of item model  |
 | `　　　　└── itemMutation.js` | The implementation of **Mutation resolvers** of item model  |
 | `　　　　└── itemResolver.js` | The implementation of **filed resolvers** of item model  |
-| `　　└── placement` (_directory_) | _Contains placement model files_ |
-| `　　　　└── placement.grapghql` | The **GraphQL schema definition** of the placement model  |
-| `　　　　└── placementModel.js` | The **Mongoose schema definition** of the placement collection  |
-| `　　　　└── placementQuery.js` | The implementation of **Query resolvers** of placement model  |
-| `　　　　└── placementMutation.js` | The implementation of **Mutation resolvers** of placement model  |
-| `　　　　└── placementResolver.js` | The implementation of **filed resolvers** of placement model  |
+| `　　└── placement` (_directory_)  | _Contains placement model files_ |
+| `　　　　└── placement.grapghql`    | The **GraphQL schema definition** of the placement model  |
+| `　　　　└── placementModel.js`     | The **Mongoose schema definition** of the placement collection  |
+| `　　　　└── placementQuery.js`     | The implementation of **Query resolvers** of placement model  |
+| `　　　　└── placementMutation.js`  | The implementation of **Mutation resolvers** of placement model  |
+| `　　　　└── placementResolver.js`  | The implementation of **filed resolvers** of placement model  |
 
 ## Coming Soon
 
