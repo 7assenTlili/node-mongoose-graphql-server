@@ -16,6 +16,7 @@
 | `　　├── index.js` | The entry point for your GraphQL server |
 | `　　├── schema.graphql` | The **application main schema that imports models schema definitions** defining the API exposed to client applications  |
 | `　　├── resolvers.js` | _Contains the implementation of the resolvers for the application schema_ |
+| `　　└── middlewares` (_directory_) | _Contains middlewares implementations _ |
 | `　　└── item` (_directory_) | _Contains item model files_ |
 | `　　　　└── item.grapghql` | The **GraphQL schema definition** of the item model  |
 | `　　　　└── itemModel.js` | The **Mongoose schema definition** of the item collection  |
